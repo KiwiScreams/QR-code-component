@@ -18,3 +18,54 @@
     --font-size-22: 22px;
     --font-size-16: 16px;
 }
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray-clr);
+}
+.container
+{
+    /* width: ; */
+    padding: 16px 16px 40px 16px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: var(--white-clr);
+}
+.container .qr-image
+{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 288px;
+    margin-bottom: 24px;
+}
+.container .qr-image img
+{
+    width: 100%;
+}
+.container h2
+{
+    color: var(--dark-navy-clr);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-700);
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.container p
+{
+    color: var(--gray-clr);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    letter-spacing: 0.19px;
+    line-height: 18px;
+    text-align: center;
+}
+.container .text
+{
+    width: 100%;
+    padding: 0px 10px;
+}
